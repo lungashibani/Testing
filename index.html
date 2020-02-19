@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <div id="vue-app">
+        <h1>{{greet('afternoon')}}</h1>
+        <p>{{name}}</p>
+        <p>{{job }}</p>
+        <p v-for="s in sab">{{s}}</p>
+        <p v-for="item in items">{{ item.message }}</p>
+
+    </div>
+
+    <script type="text/javascript" src="./app.js"></script>
+    </body>
+
+</html>
